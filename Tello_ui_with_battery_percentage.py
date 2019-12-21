@@ -72,7 +72,7 @@ class Tello_updated:
             msg="Bat: "+str(c)+ "%"
             messageVar = tki.Message(self.root, text = msg,borderwidth=5 )
             messageVar.pack()
-            time.sleep(2)
+            time.sleep(3)
             messageVar.destroy()
             
         
